@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "BananaGrotesk-Bold";
+  src: url("./assets/Fonts/BananaGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: "BananaGrotesk-Light";
+  src: url("./assets/Fonts/BananaGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "BananaGrotesk-Regular";
+  src: url("./assets/Fonts/BananaGrotesk-Regular.otf");
+}
+
+#contact {
+  z-index: 10;
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+  height: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+  background-color: #fcebe5;
+  padding: 40px 20px 30px 20px;
+  border-radius: 16px;
+}
+
+#closeButton {
+  border: none;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#contactHeading {
+  font-size: 42px;
+  font-family: "BananaGrotesk-Bold";
+  line-height: 47px;
+  text-align: left;
+  letter-spacing: 2.1px;
+  color: #495057;
+  opacity: 1;
+}
+
+#contactSubHeading {
+  font-size: 12px;
+  font-family: "BananaGrotesk-Light";
+  line-height: 38px;
+  text-align: left;
+  letter-spacing: 0.48px;
+  color: #adb5bd;
+  opacity: 1;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+#contactForm {
+}
+
+.formElements {
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+label {
+  width: 150px;
+  font-size: 12px;
+  font-family: "BananaGrotesk-Regular";
+  text-align: left;
+  letter-spacing: 0.48px;
+  color: #495057;
+  opacity: 1;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-family: "BananaGrotesk-Light";
+  text-align: left;
+  letter-spacing: 0.48px;
+  color: #adb5bd;
+  opacity: 1;
+}
+
+#submitButton {
+  width: 105px;
+  height: 45px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 39px;
+  opacity: 1;
+  color: white;
+  font-size: 12px;
+  font-family: "BananaGrotesk-Regular";
+  position: absolute;
+  right: 30px;
+}
+
+#contactInfo {
+  padding-top: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contactWebsite {
+  font-size: 12px;
+  font-family: "BananaGrotesk-Light";
+}
+
+#socialMediaIconsContainer2 {
+  width: 100px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
